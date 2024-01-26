@@ -1,0 +1,2 @@
+# uygulama-donguler
+UYGULAMA DÖNGÜLER
