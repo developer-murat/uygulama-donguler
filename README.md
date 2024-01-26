@@ -17,23 +17,3 @@ let urunler = ["iphone 12","samsung s22","iphone 13","samsung s23","samsung s20"
 // ];
 //  ogrenciler listesindeki her öğrencinin not ortalaması ve başarı durumlarını yazdırınız.
 //  tüm öğrencilerin not ortalaması kaçtır?
-
-var ogrenciler = [
-    [60,60,60],  // 60
-    [70,70,70],  // 70
-    [80,80,80],  // 80
-];
- 
-var ortalamalar = [];
- 
-ogrenciler.forEach(ogrenci => {
-    var ortalama = (ogrenci[0] + ogrenci[1]+ ogrenci[2]) / 3;
-    ortalamalar.push(ortalama);
-});
- 
-var toplam = 0;
-ortalamalar.forEach(not =>{
-    toplam+= not;
-});
- 
-console.log("okul ortalaması: ", toplam / ortalamalar.length);
